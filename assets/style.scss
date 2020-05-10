@@ -177,11 +177,11 @@ span[data-pullquote]:before {
 }
 
 a {
-  color: $blue;
+  color: $violet;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $violet;
   }
 }
 
@@ -351,7 +351,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $violet;
     }
   }
 }
@@ -1141,4 +1141,4 @@ Modules - reusable parts of our design
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 @import "autumn";
-@import "svg-icons";
+@import "social-icons";
