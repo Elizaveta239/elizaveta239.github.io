@@ -1,16 +1,19 @@
+
 .highlight {
-  background-color: #dddddd;
+  background-color: #f2f4ff;
   padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  //-webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  //box-shadow: 3px 3px rgba(0,0,0,0.1);
-  //margin: 20px 0 20px 0;
   overflow: scroll;
+  font-size: 90%;
 }
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  color: #d8d8d8;
+}
+
+.highlighter-rouge {
+  background-color: #FAFAFA;
+  color: #FF554A;
 }
 
 .highlight .hll { background-color: #ffffcc }
