@@ -28,18 +28,7 @@ layout: default
   </div>
 
   <div>
-    <p><i class="fa fa-eye fa-lg" style="padding:8px"></i><span class="views" id="counter"></span></p>
     <p><i class="fa fa-twitter fa-lg" style="color:#521a7d;padding:5px"></i><span class="share-box"></span> <a href="http://twitter.com/share?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank">Share</a> or <a href="https://www.twitter.com/{{ site.footer-links.twitter }}">Discuss</a> on Twitter</p>
-    <script type="text/javascript">
-      function getHits(){
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open("GET", 'https://hitcounter.pythonanywhere.com/count', false);
-        xmlHttp.send(null);
-        count = xmlHttp.responseText;
-        document.getElementById("counter").innerText += count;
-      }
-      window.onload=getHits();
-    </script>
   </div>
 
   <!--<div class="date">
