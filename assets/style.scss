@@ -177,11 +177,11 @@ span[data-pullquote]:before {
 }
 
 a {
-  color: $violet;
+  color: $lightViolet;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $violet;
+    color: $activeViolet;
   }
 }
 
@@ -415,7 +415,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: 89px;
-  background-color: $lightGray;
+  background-color: $violet;
 }
 
 footer {

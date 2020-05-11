@@ -11,19 +11,22 @@ $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
 
+$default-color: white;
+
 @mixin social-media-icon($color, $transition){
   -webkit-transition: $transition;
   -o-transition: $transition;
   -ms-transition: $transition;
   -moz-transition: $transition;
   transition: $transition;
+  color: $default-color;
   &:hover{
     color: $color;
   }
 }
 
 .fa-envelope {
-  padding: 5px;
+  padding: 10px;
   @include social-media-icon($envelope-color, $icon-transition-time);
 }
 
