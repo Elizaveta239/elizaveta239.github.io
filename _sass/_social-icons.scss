@@ -79,3 +79,8 @@ $default-color: white;
   padding: 10px;
   @include social-media-icon($rss-color, $icon-transition-time);
 }
+
+.fa-eye {
+  padding: 10px;
+  color: $midGray;
+}

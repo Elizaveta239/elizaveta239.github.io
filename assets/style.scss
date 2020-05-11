@@ -156,6 +156,10 @@ table tr td :last-child {
   color: #222;
 }
 
+.views {
+  color: $midGray;
+}
+
 span[data-pullquote] {
   display: block;
 
@@ -465,13 +469,13 @@ body:after {
 
 .author_title{
   text-align: center;
-  color: #939aa1;
+  color: $midGray;
   letter-spacing: 2px;
 }
 
 .post_date{
   text-align: center;
-  color: #939aa1;
+  color: $midGray;
 }
 
 .cd-container a {
