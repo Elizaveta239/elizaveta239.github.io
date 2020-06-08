@@ -5,17 +5,17 @@ categories: Tech Python Talk Eng
 excerpt: This is a written version of my PyCon US 2020 talk "The Hidden Power of the Python Runtime". In this article we'll learn about useful information, which Python interpreter implicitly generates during every code execution and how we can retrieve it in any part of our program.
 ---
 
-_This is the first part of the article, the second part will appear soon._
+_This is the first part of the article, the second part is available [here]({% post_url 2020-06-08-the-hidden-power-part2 %})._
 
 Based on my PyCon US 2020 [Online Talk](https://youtu.be/yr6E7FwK_Hw)
 
-Python language is a very simple and beautiful, but very big part of the language power is hidden from user and available only at runtime, only during execution. You might even don't know about it, but you already use this hidden power every day!
+Python language is very simple and beautiful, but very big part of the language power is hidden from user and available only at runtime, only during execution. You might even don't know about it, but you already use this hidden power every day!
 
 In this article we will learn:
 
-1. Where we already use [Runtime's Power](#power)
-2. How [Python Runtime](#python_runtime) works
-3. How Python allows [inspecting](#inspect) current program state
+1. [Where we already use Runtime's Power](#power)
+2. [How Python Runtime works](#python_runtime)
+3. [How Python allows inspecting current program state](#inspect)
 
 ## Where we already use Runtime's Power <a name="power"></a>
 
@@ -58,11 +58,11 @@ But during the program execution Python interpreter creates not only objects whi
 
 Frames are stored in a stack-like structure. The bottommost frame sometimes called a "module frame", represents a module, from which execution was started. In this example execution process is on the line 7, and it's going to call function `foo()`:
 
-![Stack frame](../posts_images/stack_frame.png)
+![Stack frame](../posts_images/the-hidden-power-part1/stack_frame.png)
 
 When Python Interpreter enters new scope during execution, it creates new **frame** object and then puts it into the stack, on top of other frames:
 
-![New frame created](../posts_images/stack_created.png)
+![New frame created](../posts_images/the-hidden-power-part1/stack_created.png)
 
 When execution process leaves the scope (in our example, returns from function `foo()`), interpreter removes frame object from the top and passes some data to the previous frame, and execution in the previous frame continues and goes to the line 8. This is a very rough description, but the main idea looks like this. 
 
@@ -155,7 +155,7 @@ That's why you should delete `frame` local variable explicitly.
 
 In this part we've learnt that our source code implicitly generates many interesting objects and everybody can easily retrieve this information in any part of their Python program. In the second part we'll learn how different Development Tools use this runtime information and help us to become more productive in our everyday lives.
  
-_This is the first part of the article, the second part will appear soon._
+_This is the first part of the article, the second part is available [here]({% post_url 2020-06-08-the-hidden-power-part2 %})._
 
  
 
