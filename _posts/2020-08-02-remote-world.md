@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I Fed Up With Remote World
+title: I'm Fed Up With Remote World
 categories: Personal Eng
 excerpt: 
 ---
