@@ -33,7 +33,7 @@ I do believe that the ideal shortcut should consist of 2 keystrokes. Here are my
 
 7. **Extend / Shrink Selection** - I assigned it to Alt + Up / Down. By default, it’s **Ctrl + W/ Ctrl + Shift + W**, but I personally use it hundreds times a day, and I want to use arrows here.
 8. **Navigate Back / Forward** - I assigned it to Ctrl + Up / Down. By default, it’s **Ctrl+Alt+Left / Right**, but again I use it many-many times every day when reading code and do believe it should be as short as possible.
-9. **Introduce a Local Variable** - introduce a variable for some expression. Moreover, it can replace all the usages of this expression in the current scope! 
+9. **Introduce Variable** - introduce a variable for some expression (**Ctrl + Shift + L** by default). Moreover, it can replace all the usages of this expression in the current scope!
 10. **Reformat a File** - it’s a 4-keystroke shortcut by default! **Ctrl+Alt+Shift+L**. Have you ever pressed 4-keystroke shortcuts? I never did it! At the same time the action is very cool and useful. Just re-assign it to Ctrl+L and feel happiness every time, when PyCharm magically transforms your code into pure beauty!
 
 There are a lot of useful actions and settings in PyCharm, and it's impossible to learn them all! But if this post inspires you to learn at least one new action with a shortcut, that will be really great!
