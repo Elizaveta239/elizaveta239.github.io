@@ -19,7 +19,7 @@ There are two quite simple ideas behind my **“shortcuts theory”**:
 1. Try to learn short shortcuts first (ideally two-keystroke shortcuts)
 2. There is no need to remember default shortcuts, you can always configure them for yourself. [Re-assigning](https://www.jetbrains.com/help/pycharm/configuring-keyboard-and-mouse-shortcuts.html) a shortcut to your custom value will help you to remember it even better! Keymap is usually trying to be comfortable for an average user, but it doesn't guarantee it’ll be comfortable for you! 
 
-When you learn about some new cool action, don’t try to remember its shortcut, but remember its name instead. After that you can always search for this action and [assign new](https://www.jetbrains.com/help/pycharm/configuring-keyboard-and-mouse-shortcuts.html) really short and easy to remember shortcut to it. And you’ll remember it much better! You can always use this [Paul Everitt’s video](https://youtu.be/NoDx0MEESDw?t=3566) for inspiration (my favorite moment is at 59:24 😊)
+When you learn about some new cool action, don’t try to remember its shortcut, but remember its name instead. After that you can always search for this action and [assign new](https://www.jetbrains.com/help/pycharm/configuring-keyboard-and-mouse-shortcuts.html) really short and easy to remember shortcut to it. And you’ll remember it much better! You can always use this Paul Everitt’s video ["42 PyCharm Tips and Tricks"](https://youtu.be/NoDx0MEESDw) for inspiration (my favorite moment is at [59:24](https://youtu.be/NoDx0MEESDw?t=3566) 😊)
 
 I do believe that the ideal shortcut should consist of 2 keystrokes. Here are my **Top-10** favorite shortcuts in PyCharm. Some of them consist of 2 keystrokes by default:
 1. **Alt + Enter** - execute this shortcut if something is highlighted in your editor, and it will explain and suggest fixes.
@@ -37,3 +37,5 @@ I do believe that the ideal shortcut should consist of 2 keystrokes. Here are my
 10. **Reformat a File** - it’s a 4-keystroke shortcut by default! **Ctrl+Alt+Shift+L**. Have you ever pressed 4-keystroke shortcuts? I never did it! At the same time the action is very cool and useful. Just re-assign it to Ctrl+L and feel happiness every time, when PyCharm magically transforms your code into pure beauty!
 
 There are a lot of useful actions and settings in PyCharm, and it's impossible to learn them all! But if this post inspires you to learn at least one new action with a shortcut, that will be really great!
+
+<img src="../posts_images/shortcuts/maze.jpg" alt="A Long path" style="width:100%"/>
